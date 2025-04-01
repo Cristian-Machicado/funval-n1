@@ -1,0 +1,28 @@
+h1{
+    color: blue;
+    background-color: rgb(139, 148, 252);
+    font-size: 40px;
+}
+.img{
+    height: 300px;
+}
+h2{
+    font-size:20px;
+    color: rgb(42, 157, 192);
+    background-color: rgb(172, 220, 247);
+}
+h3{
+    font-size:20px;
+    color: rgb(42, 157, 192);
+    background-color: rgb(172, 220, 247);
+}
+h4{
+    font-size:20px;
+    color: rgb(42, 157, 192);
+    background-color: rgb(172, 220, 247);
+}
+
+.redes{
+    color: red ;
+    text-decoration: none;
+}
