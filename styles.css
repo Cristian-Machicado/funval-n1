@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: rgb(255, 248, 245);
+}
+li{
+    list-style: none;
+    margin: 15px;
+}
+.inicios{
+    text-decoration: none;
+    color: blueviolet;
+    margin: 5px;
+}
+
+.card{
+    background-color: rgb(193, 193, 255);
+    margin: 20px;
+    height: 150px;
+    padding: 15px 10px;
+    border-radius: 12px;
+}
