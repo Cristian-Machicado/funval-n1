@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+body{
+    background-color: bisque;
+}
+
+.div1 {
+
+    margin: 20px auto;
+    width: 50%;
+    background-color: white;
+    border-radius: 20px;
+}
+.div2{
+    margin: 20px 20px;
+    border-radius: 20px;
+    font-family: YoungSerif-Regular;
+    font-weight: 100;
+    
+
+}
+.div3{
+    margin: 20px 30px;
+    border-radius: 0px;
+    background-color: rgb(234, 209, 255);
+    text-align: left;
+}
+
+#omelette {
+    width: 80%;
+    margin: 30px;
+    border-radius:20px ;
+}
+
+.texto{
+    margin: 10px 20px;
+    
+}
