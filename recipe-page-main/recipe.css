@@ -1,3 +1,21 @@
+@font-face {
+    font-family: 'Lato';
+    src: url(/recipe-page-main/assets/fonts/young-serif/YoungSerif-Regular.ttf);
+    font-weight: bold;
+    font-style: bold;
+}
+@font-face {
+    font-family: 'font';
+    src: url(/recipe-page-main/assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+    font-weight:bold;
+    font-style: bold;
+}
+@font-face {
+    font-family: 'font-l';
+    src: url(/recipe-page-main/assets/fonts/outfit/static/Outfit-Light.ttf);
+    font-weight: bold;
+    font-style: bold;
+}
 * {
     margin: 0;
     padding: 0;
@@ -7,34 +25,120 @@
 }
 body{
     background-color: bisque;
+    font-size: 15px;
+    
+h1{
+    margin: 10px;
+    font-family: 'Lato';
+    font-size: 30px;
+    padding: 0px 0px 0px 10px;
 }
 
 .div1 {
 
     margin: 20px auto;
-    width: 50%;
+    width: 55%;
     background-color: white;
     border-radius: 20px;
 }
+
 .div2{
     margin: 20px 20px;
-    border-radius: 20px;
-    font-family: YoungSerif-Regular;
+    border-radius: 10px;
+    font-family: 'font-l';
+    font-weight: 100px;
+    font-size: 11px ;
+}
+.p1{
     font-weight: 100;
-    
-
 }
 .div3{
     margin: 20px 30px;
-    border-radius: 0px;
-    background-color: rgb(234, 209, 255);
+    border-radius: 10px;
+    background-color: #fff7fc;
+    height: 150px;
     text-align: left;
+    font-family: 'font';
+    font-size: 16px;
+    padding: 20px 10px 10px 20px;
+    font-weight: lighter;
 }
+.li{
+    text-align:justify;
+    list-style-position: inside;
+    font-family: 'font-l';
+    margin-left: 13px;
+}
+
+.h21{
+    color: #6c2d46;
+    padding: 5px 5px 5px 5px;
+    font-size: 20px;
+    text-align: justify ; 
+}
+.div4{
+    font-family: 'font-l';
+    text-align: justify;
+    list-style-position: inside;
+    text-indent: 35px;
+}
+ul li::marker{
+    color: #6c2d46;
+}
+.h2{
+    font-family: 'font';
+    color: #724336;
+    text-align: left;
+    text-indent: 50px;
+}
+.div5{
+    font-family: 'font-l';
+    text-align:left;
+    font-size:13px;
+    text-indent: 45px;
+    list-style-position: inside;
+
+
+}
+.h212{
+    font-family: 'lato';
+    color: #724336;
+    text-align: justify;
+    text-indent: 48px;
+}
+.h25{
+    color: #724336;
+    font-family: 'lato';
+    text-align: justify;
+    text-indent: 48px;
+}
+.p5{
+    font-family: 'font-l';
+    text-align: justify;
+    text-indent: 48px;
+    font-size: 80%;
+    
+}
+.celda{
+    text-align: justify;
+    font-family: 'font-1';
+    text-indent: 70px;
+    font-size: 80%;
+}
+.celda2 {
+    text-align: justify;
+    text-indent: 400px;
+    font-size: 80%;
+    color: #724336;
+    font-family: 'Lato';
+}
+
 
 #omelette {
     width: 80%;
     margin: 30px;
-    border-radius:20px ;
+    border-radius:20px;
+    
 }
 
 .texto{

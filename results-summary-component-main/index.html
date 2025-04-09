@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Results summary component</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+    .p{
+      color: #2e2be9 ;
+    }
+  </style>
+</head>
+
+<body class="font[Hanken_Grotesk]">
+  <main>
+    <section class=" bg-gradient-to-b from-[#7857ff]  to-[#2e2be9]  text-white flex justify-center items-center flex-col text-center pt-6 pb-10 rounded-b-4xl" >
+      <h1>Your Result</h1>
+      <div class="my-6 flex flex-col justify-center items-center bg-gradient-to-b from-[#4e21ca] to-[#2421ca00] w-[110px] h-[110px] rounded-full">
+        <span class="text-[50px] font-bold">76</span>
+        <span class="opacity-40 mt-[-10px]">of 100</span>
+      </div>
+      <h2 class="text-2x1 font-semibold">Great</h2>
+      <p class="w-5/6 opacity-70">You scored higher than 65% of the people who have taken these tests.
+      </p>
+    </section>
+    <section class="px-8 py-5">
+      <div class="w-full">
+        <h2 class="text-lg font-semibold text-[#303850]">Summary</h2>
+      </div>
+      <div class="flex flex-col px-3 py-8">
+        <div class="flex justify-between w-full ">
+          <div class="flex justify-between gap-2">
+            <img src="./assets/images/icon-reaction.svg" alt="icon-reaction">
+            <span>Reaction</span>
+          </div>
+          <div>
+            <p><strong>80</strong> / 100</p>
+          </div>
+          <div>
+            <img src="./assets/images/icon-memory.svg" alt="icon-memory">
+            <span>Memory</span>
+          </div>
+          <div>
+            <p><strong>80</strong> / 100</p>
+          </div>
+          <div>
+            <img src="./assets/images/icon-verbal.svg" alt="icon-verbal">
+            <span>Verbal</span>
+          </div>
+          <div>
+            <p><strong>80</strong> / 100</p>
+          </div>
+          <div>
+            <img src="./assets/images/icon-visual.svg" alt="">
+            <span>Visual</span>
+          </div>
+          <div>
+            <p><strong>80</strong> / 100</p>
+          </div>
+        </div>
+      </div>
+      <div></div>
+    </section>
+  </main>
+
+
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Cristian Machicado</a>.
+  </div>
+</body>
+
+</html>
+<!-- Your Result
+  76
+  of 100
+  
+  Great
+  You scored higher than 65% of the people who have taken these tests.
+  
+  Summary
+  
+  Reaction
+  80 / 100
+  
+  Memory
+  92 / 100
+  
+  Verbal
+  61 / 100
+  
+  Visual
+  72 / 100
+  
+  Continue -->
