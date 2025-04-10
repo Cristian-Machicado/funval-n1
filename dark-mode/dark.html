@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Mode</title>
+    <link rel="stylesheet" href="./dark.css">
+    <script src="./dark.js" defer></script>
+</head>
+
+<body class="h-screen flex justify-center items-center bg-sky-200 dark:bg-sky-950">
+    <main class="bg-white h-1/2 w-1/2 rounded-3xl flex flex-col p-4 justify-center items-center gap-1.5">
+        <img src="https://placecats.com/150/100" alt="rounded-2xl">
+        <h1 class="font-bold">the cat</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        </p>
+        
+        <button id="dark" class="border px-2 py-1 flex items-center rounded-full cursor-pointer">
+            <div class="hidden dark:block">
+                <img src="../resourses/darkmode/sun-regular-24.png" alt="sol"/>
+            </div>
+
+            <div class="block dark:hidden">
+                    <img src="../resourses/darkmode/moon-solid-24.png" alt="luna">
+            </div>
+        </button>    
+    </main>
+</body>
+
+</html>
