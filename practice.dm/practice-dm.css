@@ -11,6 +11,7 @@
     --color-red-500: oklch(63.7% 0.237 25.331);
     --color-amber-100: oklch(96.2% 0.059 95.617);
     --color-amber-200: oklch(92.4% 0.12 95.746);
+    --color-amber-500: oklch(76.9% 0.188 70.08);
     --color-amber-600: oklch(66.6% 0.179 58.318);
     --color-yellow-400: oklch(85.2% 0.199 91.936);
     --color-green-400: oklch(79.2% 0.209 151.711);
@@ -456,6 +457,12 @@
   .bg-\[\#fdd93a\] {
     background-color: #fdd93a;
   }
+  .bg-amber-100 {
+    background-color: var(--color-amber-100);
+  }
+  .bg-amber-500 {
+    background-color: var(--color-amber-500);
+  }
   .bg-blue-400 {
     background-color: var(--color-blue-400);
   }
@@ -681,11 +688,6 @@
   .dark\:hidden {
     &:where(.dark, .dark *) {
       display: none;
-    }
-  }
-  .dark\:bg-amber-100 {
-    &:where(.dark, .dark *) {
-      background-color: var(--color-amber-100);
     }
   }
   .dark\:bg-blue-800 {
