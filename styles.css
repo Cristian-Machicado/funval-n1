@@ -7,8 +7,12 @@
 
 h1,
 h2 {
+    font-size: px;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.inicios{
+    font-size: 30px;
 }
 
 body {
@@ -46,6 +50,7 @@ li {
     padding: 5px 5px;
     border-radius: 5px;
     text-align: center;
+
 
 }
 
