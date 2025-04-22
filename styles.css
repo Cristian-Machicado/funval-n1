@@ -22,8 +22,29 @@ body {
 header {
     text-align: center;
     background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
 
+}
+nav{
+    display: flex;
+    align-content: space-between;
+    max-width: var(--container-md);
+    margin-inline: auto;
+    
+}
+.header{
+    display: flex;
+    gap: calc(var(--spacing)*4);
+    margin: 20px;
+    padding: 10px;
 
+}
+.headerli{
+    padding: 0px 70px 0px;
+    
 }
 
 main {
